@@ -1,0 +1,18 @@
+.side-nav-outer-toolbar {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  .main-content {
+    flex: 1;
+
+    .container {
+      max-width: 100%;
+    }
+  }
+}
+
+.layout-header {
+  z-index: 1501;
+}

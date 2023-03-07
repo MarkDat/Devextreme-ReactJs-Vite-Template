@@ -1,0 +1,30 @@
+@import "../../themes/generated/variables.base.scss";
+
+.i-color {
+    &--red {
+        color: red !important;
+    }
+
+    &--white {
+        color: white !important;
+    }
+
+    &--base {
+        color: $base-text-color !important;
+    }
+
+    &--accent {
+        color: $base-accent !important;
+    }
+}
+
+.br-color {
+    &--accent {
+        background-color: $base-accent !important;
+    }
+}
+
+.title-panel {
+    background-color: $base-accent !important;
+    color: white;
+}

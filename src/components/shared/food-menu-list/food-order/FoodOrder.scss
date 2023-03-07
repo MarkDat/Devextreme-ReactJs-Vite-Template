@@ -1,0 +1,33 @@
+@import '../../../../themes/generated/variables.base.scss';
+
+.food-order {
+    &__header {
+        .action-btn {
+            &__order {
+                border-radius: 10% !important;
+                width: 50px;
+            }
+    
+            &__clear {
+                border-radius: 10% !important;
+                width: 50px;
+                background-color: transparent !important;
+                border: 1px solid $base-accent;
+            }
+        }
+        
+
+        .title {
+            width: 100px;
+            border-radius: 5%;
+            text-align: center;
+        }
+    }
+
+    &__footer {
+        .sum {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}

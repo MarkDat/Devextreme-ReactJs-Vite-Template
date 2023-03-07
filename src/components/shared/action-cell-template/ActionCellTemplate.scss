@@ -1,0 +1,23 @@
+
+@import '../../../themes/customs/variables.additional.scss';
+@import '../../../themes/generated/variables.base.scss';
+
+.action-cell {
+    display: flex;
+    justify-content: space-around;
+
+    &--edit {
+        color: $action-text-color;
+        cursor: pointer;
+    }
+    
+    &--delete {
+        color: $action-text-color;
+        cursor: pointer;
+    }
+
+    .action-cell-hover:hover{
+        color: $base-accent;
+        cursor: pointer;
+    }
+}

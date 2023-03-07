@@ -1,0 +1,24 @@
+@mixin unit {
+    font-weight: 400;
+    position: relative;
+    top: -9px;
+    font-size: 10px;
+    right: 0;
+}
+
+@mixin default-button {
+    &.dx-state-hover {
+        background-color: $base-accent;
+        color: white;
+    }
+
+    &.dx-state-active {
+        background-color: $base-accent;
+        color: white;
+    }
+
+    &.dx-state-focused {
+        background-color: $base-accent;
+        color: white;
+    }
+}

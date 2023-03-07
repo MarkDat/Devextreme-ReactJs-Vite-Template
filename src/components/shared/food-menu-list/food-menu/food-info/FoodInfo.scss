@@ -1,0 +1,63 @@
+@import '../../../../../assets/styles/mixin/foc-mixins.scss';
+@import '../../../../../themes/generated/variables.base.scss';
+
+.food-info{
+    min-height: 70px;
+
+    &__img {
+        width: 60px;
+        height: 60px;
+    }
+
+    &__title {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.3em;
+        white-space: break-spaces;
+    }
+
+    &__desc {
+        white-space: break-spaces;
+    }
+
+    &__money {
+        .price {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0288d1;
+
+            &__unit {
+                @include unit;
+            }
+        }
+
+        .cost {
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: line-through;
+            color: darkgray;
+
+            &__unit {
+                @include unit;
+            }
+        }
+    }
+
+    &__add-button {
+        .btn-over {
+            text-align: center;
+            color: #fff;
+            display: inline-block;
+            border-radius: 4px;
+            font-size: 12px;
+            padding: 2px 10px;
+            background-color: #959595;
+            white-space: break-spaces;
+        }
+
+        .btn-add {
+            color: white;
+            background-color: $base-accent;
+        }
+    }
+}

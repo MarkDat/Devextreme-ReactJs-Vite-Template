@@ -1,0 +1,18 @@
+@import './variables.additional.scss';
+
+.dx-datagrid {
+    .dx-datagrid-headers {
+        .dx-datagrid-table {
+            .dx-row.dx-header-row {
+                background-color: $header-grid-br-color;
+                text-transform: uppercase;
+            }
+
+            .dx-row > td {
+                color: $header-grid-text-color;
+                font-size: 0.875rem;
+                font-weight: bolder;
+            }
+        }
+    } 
+}
