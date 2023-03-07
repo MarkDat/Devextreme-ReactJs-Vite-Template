@@ -10,7 +10,7 @@ This is the repository template for creating new examples.
 
 ## Quick Start
 
-- Clone the repo: ``
+- Clone the repo: `https://github.com/MarkDat/Devextreme-ReactJs-Vite-Template.git`
 
 ### Installation
 
